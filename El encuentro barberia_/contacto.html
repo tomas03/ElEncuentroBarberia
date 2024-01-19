@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>El encuentro</title>
+    
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <img src="imagens/logo.png" alt="">
+      </div>
+      <div class="title_nav">
+          <a href="index.html"><h1>El Encuentro</h1></a>
+      </div>
+      <div class="nav_bar">
+          <a href="cortes.html" alt="" class="a_nav" >Cortes</a>
+          <a href="productors.html" alt="" class="a_nav">Productos</a>
+          <a href="contacto.html" alt="" class="a_nav">Contactanos</a>
+          <a href="table.php" class="a_nav">Turnos</a>
+      </div>
+  </header>
+
+
+
+    <section id="contactos">
+      <h2>Contactos</h2>
+      <p>Por favor, complete el siguiente formulario para contactarnos:</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+  
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea><br>
+  
+        <button onclick="mostrarAlerta()" style="font-size: 30px; background-color: green; color: white;"   >ENVIAR</button>
+      </form>      
+    </section>
+    <p id="texto">
+      Tambien puede contactarnos por:
+     </p>
+    <div class="contenedor-imagen">
+    <img src="imagens/instagram.png" class="img-contacto"> 
+    <img src="imagens/facebook.png" class="img-contacto">
+    <img src="imagens/whatsapp.png" class="img-contacto">
+    
+    <script src="javascript/contacto.js"></script>
+    </div>  
+  </body>
+</html>
